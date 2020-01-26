@@ -7,11 +7,24 @@
 
   <!-- Leave these here!  They will render the validation buttons -->
   <link rel="stylesheet" href="./hide-reveal/style.css">
-  <script src='./hide-reveal/init.js'></script>
+  <!--<script src='./hide-reveal/init.js'></script> -->
 </head>
 
 <body>
+  <main>
+    <form action="/search" method="post">
+      <p>
+        <img src="googlelogo_color_272x92dp.png" alt="google logo">
+      </p>
+      <p>
+      <input type="text" name="query" id="query" aria-label="Search box">
+      </p>
+      <p>
+      <input type="submit" value="Google Search" aria-label="Google search">
+      <input type="button" value="Feeling Lucky" aria-label="Feeling Lucky">
+      </p>
 
+    </form>
+  </main>
 </body>
-
-</htm>
+</html>
